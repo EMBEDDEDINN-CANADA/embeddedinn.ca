@@ -1,0 +1,26 @@
+FAVICON CONVERSION INSTRUCTIONS
+================================
+
+The website uses SVG favicons which are supported by modern browsers.
+For maximum compatibility, you may want to also create a favicon.ico file.
+
+To convert favicon.svg to favicon.ico:
+
+1. Using ImageMagick (command line):
+   convert -density 256x256 -background transparent favicon.svg -define icon:auto-resize -colors 256 favicon.ico
+
+2. Using online converters:
+   - https://cloudconvert.com/svg-to-ico
+   - https://convertio.co/svg-ico/
+   - https://www.freeconvert.com/svg-to-ico
+
+3. For best results, create multiple sizes:
+   - 16x16, 32x32, 48x48 pixels
+
+The SVG files provided:
+- favicon.svg - Main favicon (32x32 optimized)
+- apple-touch-icon.svg - iOS/Safari bookmark icon (180x180)
+- logo.svg - Full company logo
+- logo-icon.svg - Logo mark only (40x40)
+
+Note: Modern browsers prefer SVG favicons as they scale perfectly at any size. 

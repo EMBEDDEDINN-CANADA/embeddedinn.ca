@@ -12,6 +12,8 @@ A modern, professional static website for embeddedinn canada, showcasing technic
 - **Smooth Animations**: Scroll-triggered animations and progress bar
 - **User Experience**: Back-to-top button, loading states, and 404 page
 - **Legal Pages**: Privacy policy and terms of service included
+- **Custom Logo**: SVG logo with bracket design representing embedded systems
+- **Favicon Support**: SVG favicon with fallback options
 
 ## Pages
 
@@ -70,6 +72,11 @@ npx http-server
 ├── sitemap.xml         # XML sitemap for search engines
 ├── robots.txt          # Robots file for crawlers
 ├── CNAME               # Custom domain configuration
+├── logo.svg            # Company logo (full version)
+├── logo-icon.svg       # Logo icon (mark only)
+├── favicon.svg         # SVG favicon
+├── apple-touch-icon.svg # Apple touch icon (180x180)
+├── favicon-instructions.txt # Instructions for creating .ico file
 └── README.md           # This file
 ```
 

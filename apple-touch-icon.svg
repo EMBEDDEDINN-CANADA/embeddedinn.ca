@@ -1,0 +1,24 @@
+<svg width="180" height="180" viewBox="0 0 180 180" xmlns="http://www.w3.org/2000/svg">
+    <!-- Apple touch icon version with background -->
+    <rect width="180" height="180" fill="#0d1117" rx="30" />
+
+    <g fill="#0066ff" transform="translate(90, 90)">
+        <!-- Centered and scaled logo mark -->
+        <g transform="scale(3)">
+            <!-- Left bracket -->
+            <path d="M-20 -10 L-20 10 L-17 10 L-17 8 L-18 8 L-18 -8 L-17 -8 L-17 -10 Z" />
+
+            <!-- Center dots -->
+            <circle cx="-12" cy="0" r="1.5" />
+            <circle cx="-6" cy="-6" r="1.5" />
+            <circle cx="-6" cy="6" r="1.5" />
+            <circle cx="0" cy="0" r="1.5" />
+            <circle cx="6" cy="-6" r="1.5" />
+            <circle cx="6" cy="6" r="1.5" />
+            <circle cx="12" cy="0" r="1.5" />
+
+            <!-- Right bracket -->
+            <path d="M20 -10 L17 -10 L17 -8 L18 -8 L18 8 L17 8 L17 10 L20 10 Z" />
+        </g>
+    </g>
+</svg> 

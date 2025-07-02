@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Page Not Found | embeddedinn canada</title>
+    <meta name="description" content="The page you're looking for doesn't exist">
+    <meta name="robots" content="noindex, nofollow">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .error-page {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .error-content {
+            max-width: 600px;
+            padding: var(--spacing-lg);
+        }
+
+        .error-code {
+            font-size: 8rem;
+            font-weight: 700;
+            color: var(--accent);
+            opacity: 0.3;
+            margin-bottom: var(--spacing-md);
+            line-height: 1;
+        }
+
+        .error-message {
+            font-size: 2rem;
+            margin-bottom: var(--spacing-md);
+            color: var(--text-primary);
+        }
+
+        .error-description {
+            font-size: 1.125rem;
+            color: var(--text-secondary);
+            margin-bottom: var(--spacing-xl);
+        }
+
+        .error-actions {
+            display: flex;
+            gap: var(--spacing-md);
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .error-terminal {
+            background-color: var(--bg-tertiary);
+            border: 1px solid var(--border);
+            border-radius: var(--border-radius);
+            padding: var(--spacing-md);
+            margin-top: var(--spacing-xl);
+            text-align: left;
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+        }
+
+        .error-terminal code {
+            color: var(--accent);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="error-page">
+        <div class="error-content">
+            <div class="error-code">404</div>
+            <h1 class="error-message">page not found</h1>
+            <p class="error-description">
+                The page you're looking for doesn't exist or has been moved.
+            </p>
+
+            <div class="error-actions">
+                <a href="/" class="btn btn-primary">go home</a>
+                <a href="/contact.html" class="btn btn-secondary">contact us</a>
+            </div>
+
+            <div class="error-terminal">
+                <code>$ curl https://embeddedinn.ca/[requested-page]</code><br>
+                <code>HTTP/1.1 404 Not Found</code>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

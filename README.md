@@ -72,7 +72,8 @@ npx http-server
 ├── sitemap.xml         # XML sitemap for search engines
 ├── robots.txt          # Robots file for crawlers
 ├── CNAME               # Custom domain configuration
-├── logo.svg            # Company logo (full version)
+├── logo.svg            # Company logo (full version with auto dark/light)
+├── logo-light.svg      # Light version of logo for dark backgrounds
 ├── logo-icon.svg       # Logo icon (mark only)
 ├── favicon.svg         # SVG favicon
 ├── apple-touch-icon.svg # Apple touch icon (180x180)
@@ -85,6 +86,8 @@ npx http-server
 - **Colors**: Edit CSS variables in `:root` and `[data-theme="dark"]`
 - **Content**: Update HTML files with your specific information
 - **Contact Email**: Update the email address in contact.html (currently set to contact@embeddedinn.ca)
+- **Logo**: The logo is now referenced as an external SVG file (logo.svg) with automatic dark/light mode support
+- **Logo Size**: Adjust the `.logo` height in style.css (currently 40px, 35px on mobile)
 
 ## License
 
